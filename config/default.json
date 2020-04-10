@@ -1,3 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://Misan123:misan123@cluster0-fhpal.mongodb.net/test?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://Misan123:misan123@cluster0-fhpal.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "secret"
 }
