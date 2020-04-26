@@ -89,7 +89,7 @@ router.put('/:id', auth, async (req, res) => {
 //@route        DELETE api/contact/:id
 //@desc         Delete contacts
 //@access       Private
-router.get('/:id', auth, async (req, res) => {
+router.delete('/:id', auth, async (req, res) => {
   try {
     let contact = await Contact.findById(req.params.id);
 
